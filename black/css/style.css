@@ -100,7 +100,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   padding-bottom: 30px;
   width: 100%;
   z-index: 12;
-  position: absolute;
+  position: fixed;
   top: 0;
 }
 
@@ -463,7 +463,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .btn.btn-primary {
   border: 2px solid #22eaaa;
   background: #22eaaa;
-  color: #000000;
+  color: #ffffff;
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
@@ -534,7 +534,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-section {
-  padding: 4em 0;
+  padding: 2em 0;
   position: relative;
   z-index: 2;
 }
@@ -653,7 +653,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .probootstrap-cta {
   border-top: 2px solid rgba(255, 255, 255, 0.1);
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-  padding: 50px 0;
+  padding: 0px 0;
   float: left;
   width: 100%;
 }
@@ -744,7 +744,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-footer {
   border-top: 2px solid rgba(255, 255, 255, 0.1);
-  padding: 5em 0;
+  padding: 2em 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -757,7 +757,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 8em 0;
+  padding: 1em 0;
   position: relative;
 }
 
@@ -1072,7 +1072,7 @@ figure:hover figcaption, figure:focus figcaption {
 
 @media screen and (max-width: 768px) {
   .slides-text {
-    padding-top: 150px;
+    padding-top: 365px;
   }
 }
 

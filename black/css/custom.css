@@ -1,1 +1,28 @@
-/* Your custom css code goes here */
+.reservation {
+  z-index: 99;
+  position: relative;
+  padding-top: 0px;
+  padding-bottom: 70px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.reservation h2 {
+  font-weight: 100;
+  font-size: 50px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.reservation p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.blurry-background {
+    background-color: rgba(0, 0, 0, 0.3); /* полупрозрачный черный фон */
+    backdrop-filter: blur(6px); /* размытие подложки */
+    -webkit-backdrop-filter: blur(6px); /* поддержка для Safari */
+    color: #ffffff; /* белый цвет текста для контраста */
+}

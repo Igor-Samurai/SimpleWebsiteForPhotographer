@@ -31,13 +31,12 @@
   
   <div class="probootstrap-loader"></div>
 
-  <header role="banner" class="probootstrap-header">
+  <header role="banner" class="probootstrap-header blurry-background">
     <div class="container">
         <a href="index.html" class="probootstrap-logo">Premium<span>.</span></a>
         
         <a href="#" class="probootstrap-burger-menu visible-xs" ><i>Меню</i></a>
         <div class="mobile-menu-overlay"></div>
-
         <nav role="navigation" class="probootstrap-nav hidden-xs">
           <ul class="probootstrap-main-nav">
             <li class="active"><a href="index.html">Главная</a></li>
@@ -87,7 +86,7 @@
                "></div>
                 </div>
                 <p style="position: relative; z-index: 2;"> <!-- Устанавливаем z-index для параграфа( для кнопки) выше, чем у подложки -->
-    <a href="https://rutube.ru/play/embed/3a591a9ad881f75e153fe6ea4a1b8771" class="popup-vimeo probootstrap-video-play"> <i target="_blank" class="btn btn-primary"> Смотреть </i></a>
+    <a href="https://rutube.ru/play/embed/3a591a9ad881f75e153fe6ea4a1b8771" class="btn btn-primary popup-vimeo probootstrap-video-play" target="_blank"> Смотреть </a>
   </p>
               </div>
             </div>
@@ -141,8 +140,8 @@
                "></div>
                 </div>
                 <p style="position: relative; z-index: 2;"> <!-- Устанавливаем z-index для параграфа( для кнопки) выше, чем у подложки -->
-    <a href="https://probootstrap.com/" target="_blank" class="btn btn-primary">Смотреть</a>
-  </p>
+                <a href="https://probootstrap.com/" target="_blank" class="btn btn-primary">Смотреть</a>
+              </p>
               </div>
             </div>
           </div>
@@ -195,16 +194,16 @@
   </section>
   <!-- END section -->
 
-   <div class="container">
-      <div class="probootstrap-cta probootstrap-animate border-bototm-none"> </div>
-   </div>
-  
- <!-- END section cta -->
+
+  <div class="container">
+    <div class="probootstrap-cta probootstrap-animate border-bototm-none"></div>
+  </div>
+
 
    <section class="probootstrap-section" id="projects">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 section-heading probootstrap-animate">
+        <div class="col-md-12 section-heading probootstrap-animate text-center">
           <h2>Наши проекты</h2>
         </div>
       </div>
@@ -279,127 +278,140 @@
         </div>
 
      </div>
-    </div>
   </section>
   <!-- END section -->
 
-   <div class="container">
-    <div class="probootstrap-cta probootstrap-animate border-bototm-none">
-          </div>
+  <div class="container">
+    <div class="probootstrap-cta probootstrap-animate border-bototm-none"></div>
   </div>
 
  <!-- END section cta -->
 
  <section class="probootstrap-section" id="price">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 section-heading probootstrap-animate">
-          <h2>Стоимость услуг</h2>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 section-heading probootstrap-animate text-center">
+        <h2>Стоимость услуг</h2>
       </div>
+    </div>
 
-  <div class="probootstrap-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 probootstrap-animate" data-animate-effect="fadeInLeft">
-
-          <div class="panel-group probootstrap-panel" id="accordion" role="tablist" aria-multiselectable="true">
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingOne">
-                <h3 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-
-                    "Минимально" - короткие мероприятия
-                  </a>
-                </h3>
-              </div>
-              <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                <div class="panel-body">
-                  <p><a target="_blank"> 1 час видеосъёмки 🎬 7.000 ₽</p></a> <p>На выходе вы получаете 7–15 минут готового фильма и клип длительностью 3–5 минут. <p><a target="_blank">2 часа видеосъёмки 🎬 12.500 ₽</a></p> <p>На выходе вы получаете 15–30 минут готового фильма и клип длительностью 3–5 минут.</p></p>
-                  
+    <div class="probootstrap-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 probootstrap-animate" data-animate-effect="fadeInLeft">
+            <div class="panel-group probootstrap-panel" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h3 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      "Минимально" - короткие мероприятия
+                    </a>
+                  </h3>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                    <p><a target="_blank" href="#">1 час видеосъёмки 🎬 7.000 ₽</a></p>
+                    <p>На выходе вы получаете 7–15 минут готового фильма и клип длительностью 3–5 минут.</p>
+                    <p><a target="_blank" href="#">2 часа видеосъёмки 🎬 12.500 ₽</a></p>
+                    <p>На выходе вы получаете 15–30 минут готового фильма и клип длительностью 3–5 минут.</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingTwo">
-                <h3 class="panel-title">
-                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    "Оптимально" - золотая середина
-                  </a>
-                </h3>
-              </div>
-              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                <div class="panel-body">
-                  <p><a target="_blank"> 4 часа видеосъёмки 🎬 20.000 ₽</p></a> <p>На выходе вы получаете 1-2 часа готового фильма и клип длительностью 3–5 минут. <p><a target="_blank">6 часов видеосъёмки 🎬 27.500 ₽</a></p> <p>На выходе вы получаете 2-3 часа готового фильма и клип длительностью 3–5 минут.</p></p> <p><a target="_blank"> Анонс к фильму 🎬 5.000 ₽</a></p> <p>Дополнительная услуга к проекту, на выходе вы получаете мини-фильм длительностью 12-15 минут.</p></p>
-                  
+
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h3 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      "Оптимально" - золотая середина
+                    </a>
+                  </h3>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    <p><a target="_blank" href="#">4 часа видеосъёмки 🎬 20.000 ₽</a></p>
+                    <p>На выходе вы получаете 1-2 часа готового фильма и клип длительностью 3–5 минут.</p>
+                    <p><a target="_blank" href="#">6 часов видеосъёмки 🎬 27.500 ₽</a></p>
+                    <p>На выходе вы получаете 2-3 часа готового фильма и клип длительностью 3–5 минут.</p>
+                    <p><a target="_blank" href="#">Анонс к фильму 🎬 5.000 ₽</a></p>
+                    <p>Дополнительная услуга к проекту, на выходе вы получаете мини-фильм длительностью 12-15 минут.</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingThree">
-                <h3 class="panel-title">
-                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    "Полностью" - сверхдлинный формат
-                  </a>
-                </h3>
-              </div>
 
-              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                <div class="panel-body">
-                  <p><a target="_blank"> 8 часов видеосъёмки 🎬 35.000 ₽</p></a> <p>На выходе вы получаете 3-4 часа готового фильма и клип длительностью 3–5 минут. <p><a target="_blank">10 часов видеосъёмки 🎬 42.500 ₽</a></p> <p>На выходе вы получаете 4-5 часа готового фильма и клип длительностью 3–5 минут.</p> <p><a target="_blank"> Анонс к фильму 🎬 5.000 ₽</a></p> <p>Дополнительная услуга к проекту, на выходе вы получаете мини-фильм длительностью 12-15 минут.</p></p>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h3 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      "Полностью" - сверхдлинный формат
+                    </a>
+                  </h3>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    <p><a target="_blank" href="#">8 часов видеосъёмки 🎬 35.000 ₽</a></p>
+                    <p>На выходе вы получаете 3-4 часа готового фильма и клип длительностью 3–5 минут.</p>
+                    <p><a target="_blank" href="#">10 часов видеосъёмки 🎬 42.500 ₽</a></p>
+                    <p>На выходе вы получаете 4-5 часа готового фильма и клип длительностью 3–5 минут.</p>
+                    <p><a target="_blank" href="#">Анонс к фильму 🎬 5.000 ₽</a></p>
+                    <p>Дополнительная услуга к проекту, на выходе вы получаете мини-фильм длительностью 12-15 минут.</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingFive">
-                <h3 class="panel-title">
-                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                    📚Образовательным учереждениям
-                  </a>
-                </h3>
-              </div>
 
-              <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-                <div class="panel-body">
-                  <p><a target="_blank"> 1 час видеосъёмки 🎬 1.000 ₽ с человека</p></a> <p>На выходе вы получаете 7–15 минут готового фильма и клип длительностью 3–5 минут.</p> <p><a target="_blank"> 2-4 часа видеосъёмки 🎬 2.000 ₽ с человека</p></a> <p>На выходе вы получаете от 15 минут до 2 часов готового фильма, в зависимости от времени съёмки и клип длительностью 3–5 минут.</p>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFive">
+                  <h3 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      📚Образовательным учереждениям
+                    </a>
+                  </h3>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                  <div class="panel-body">
+                    <p><a target="_blank" href="#">1 час видеосъёмки 🎬 1.000 ₽ с человека</a></p>
+                    <p>На выходе вы получаете 7–15 минут готового фильма и клип длительностью 3–5 минут.</p>
+                    <p><a target="_blank" href="#">2-4 часа видеосъёмки 🎬 2.000 ₽ с человека</a></p>
+                    <p>На выходе вы получаете от 15 минут до 2 часов готового фильма, в зависимости от времени съёмки и клип длительностью 3–5 минут.</p>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingFour">
-                <h3 class="panel-title">
-                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    REELS - вертикальное видео
-                  </a>
-                </h3>
-              </div>
-
-              <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                <div class="panel-body">
-                  <p><a target="_blank"> Дополнительная услуга к проекту 🎬 3.000 ₽</p></a> <p>На выходе вы получаете вертикальное видео с самыми яркими моментами длительностью 60-90 секунд. </p>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFour">
+                  <h3 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      REELS - вертикальное видео
+                    </a>
+                  </h3>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                  <div class="panel-body">
+                    <p><a target="_blank" href="#">Дополнительная услуга к проекту 🎬 3.000 ₽</a></p>
+                    <p>На выходе вы получаете вертикальное видео с самыми яркими моментами длительностью 60-90 секунд.</p>
+                  </div>
                 </div>
               </div>
-            </div>
 
+            </div>
+            <!-- END panel-group -->
           </div>
-          <!-- END panel-group -->
-        </div>
-        <div class="col-md-6 probootstrap-animate" data-animate-effect="fadeInRight">
 
-          <figure>
-            <div class="probootstrap-video">
-              <a href="https://rutube.ru/play/embed/3a591a9ad881f75e153fe6ea4a1b8771" class="popup-vimeo probootstrap-video-play"><i class="icon-play3"></i></a>
-              <img src="img/pr.jpg" alt="Free HTML5 Bootstrap Template by ProBootstrap.com" class="img-responsive img-border">
-            </div>
-            <figcaption1>Premium - этим всё сказано.</figcaption1>
-          </figure>
+          <div class="col-md-6 probootstrap-animate" data-animate-effect="fadeInRight">
+            <figure>
+              <div class="probootstrap-video">
+                <a href="https://rutube.ru/play/embed/3a591a9ad881f75e153fe6ea4a1b8771" class="popup-vimeo probootstrap-video-play"><i class="icon-play3"></i></a>
+                <img src="img/pr.jpg" alt="Free HTML5 Bootstrap Template by ProBootstrap.com" class="img-responsive img-border">
+              </div>
+              <figcaption>Premium - этим всё сказано.</figcaption>
+            </figure>
+          </div>
 
         </div>
       </div>
     </div>
+
   </div>
+</section>
   <!-- END section -->
   
   
@@ -443,33 +455,41 @@
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </section>
   <!-- END section -->
           
-
-<div class="container">
-    <div class="probootstrap-cta probootstrap-animate border-bototm-none">
-      <h2 class="mb20">Часто задаваемый вопрос</h2>
-      <p><a target="_blank">Почему у вас такая низкая цена?</a></p> <p>Мы предлагаем услуги видеосъёмки по доступным ценам, потому что работаем удалённо и не несем издержек на содержание офиса. Это позволяет предоставить нашим клиентам высококачественный продукт без лишних затрат, в кратчайшие сроки.</p>
-    </div>
+  <div class="container">
+    <div class="probootstrap-cta probootstrap-animate border-bototm-none"></div>
   </div>
-
-
-  <footer class="probootstrap-footer probootstrap-bg" id="contacts">
-            <div class="col-md-12 text-center">
-              <div class="slides-text probootstrap-animate">
-                <h2>Бронирование Даты</h2>
-                <p>Вы можете отправить заявку по электронной почте, заполнив обращение ниже. А так же позвонить по номеру тел.<a target="_blank"> +7 995 760 41 56</a>. </p>
-              </div>
-            </div>
-  </section>
-  <!-- END: slider  -->
   
+
+
   <section class="probootstrap-section">
+    <div class="container probootstrap-animate">
+       <div class="row">
+          <div class="col-md-12 section-heading probootstrap-animate text-center">
+            <h2>Часто задаваемый вопрос</h2>
+          </div>
+        </div>
+        <p class="text-center"><a target="_blank">Почему у вас такая низкая цена?</a></p>
+        <p>Мы предлагаем услуги видеосъёмки по доступным ценам, потому что работаем удалённо и не несем издержек на содержание офиса. Это позволяет предоставить нашим клиентам высококачественный продукт без лишних затрат, в кратчайшие сроки.</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="probootstrap-cta probootstrap-animate border-bototm-none"></div>
+  </div>
+  <!-- END: slider  -->
+
+  <footer class="probootstrap-footer probootstrap-bg">
+  <section class="probootstrap-section probootstrap-animate border-bototm-none">
     <div class="container">
+       <div class="reservation">
+          <h2>Бронирование Даты</h2>
+          <p>Вы можете отправить заявку по электронной почте, заполнив обращение ниже. А так же позвонить по номеру тел.<a target="_blank"> +7 995 760 41 56</a>. </p>
+        </div>
       <div class="row">
         <div class="col-md-8">
           <form action="#" method="post" class="probootstrap-form mb60">
@@ -511,87 +531,29 @@
           <h4>Обратная Связь</h4>
           <p>Если вы хотите заказать услугу или у вас остались вопросы, свяжитесь с нами удобным для вас способом.</p> 
 
-            <ul class="probootstrap-social">
-              <li><a href="https://vk.com/premiumRO"><i class="icon-vk-alternitive"></i></a></li>
-              <li><a href="https://t.me/PREMIUMrostov"><i class="icon-telegram"></i></a></li>
-              <li><a href="#"><i class="icon-instagram2"></i></a></li>
-            </ul>
+          <ul class="probootstrap-social">
+            <li><a href="https://vk.com/premiumRO"><i class="icon-vk-alternitive"></i></a></li>
+            <li><a href="https://t.me/PREMIUMrostov"><i class="icon-telegram"></i></a></li>
+            <li><a href="#"><i class="icon-instagram2"></i></a></li>
+          </ul>
 
-            <p>Команда Premium с радостью ответит на ваши звонки <br>с 12:00 до 20:00. </p>
+          <p>Команда Premium с радостью ответит на ваши звонки <br>с 12:00 до 20:00. </p>
 
           <p><a href="#price">Наш Прайс</a></p>
         </div>
       </div>
     </div>
-  </section>  
-      </footer>
+  </section>
+    </footer>
 
 
 
-
-
-  
-
-  <footer class="probootstrap-footer probootstrap-bg">
+<footer class="probootstrap-footer probootstrap-bg">
     <div class="container">
-      <div class="row mb60">
-        <div class="col-md-3">
-          <div class="probootstrap-footer-widget">
-            <h4 class="heading">About Black.</h4>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-            <p><a href="#">Read more...</a></p>
-          </div> 
-        </div>
-        <div class="col-md-3">
-          <div class="probootstrap-footer-widget probootstrap-link-wrap">
-            <h4 class="heading">Quick Links</h4>
-            <ul class="stack-link">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Products</a></li>
-              <li><a href="#">Testimonial</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="probootstrap-footer-widget">
-            <h4 class="heading">More Links</h4>
-            <ul class="stack-link">
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Terms</a></li>
-              <li><a href="#">Career</a></li>
-              <li><a href="#">Support Help</a></li>
-            </ul>
-          </div> 
-        </div>
-        <div class="col-md-3">
-          <div class="probootstrap-footer-widget probootstrap-link-wrap">
-            <h4 class="heading">Subscribe</h4>
-            <p>Far far away behind the word mountains far from.</p>
-            <form action="#">
-              <div class="form-field">
-                <input type="text" class="form-control" placeholder="Enter your email">
-                <button class="btn btn-subscribe">Send</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
       <div class="row copyright">
         <div class="col-md-6">
           <div class="probootstrap-footer-widget">
-            <p>&copy; 2017 <a href="https://probootstrap.com/">ProBootstrap:Black</a>. Designed by <a href="https://probootstrap.com/">ProBootstrap.com</a> <br> Demo Photos from <a href="https://unsplash.com/">Unsplash</a></p>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="probootstrap-footer-widget right">
-            <ul class="probootstrap-social">
-              <li><a href="#"><i class="icon-twitter"></i></a></li>
-              <li><a href="#"><i class="icon-facebook"></i></a></li>
-              <li><a href="#"><i class="icon-instagram2"></i></a></li>
-            </ul>
+            <p>&copy; 2025 <a href="https://probootstrap.com/">ProBootstrap:Black</a>. Designed by <a href="https://probootstrap.com/">ProBootstrap.com</a></p>
           </div>
         </div>
       </div>
