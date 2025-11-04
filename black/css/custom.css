@@ -22,7 +22,7 @@
 
 .blurry-background {
     background-color: rgba(0, 0, 0, 0.3); /* полупрозрачный черный фон */
-    backdrop-filter: blur(6px); /* размытие подложки */
-    -webkit-backdrop-filter: blur(6px); /* поддержка для Safari */
+    backdrop-filter: blur(1px); /* размытие подложки */
+    -webkit-backdrop-filter: blur(1px); /* поддержка для Safari */
     color: #ffffff; /* белый цвет текста для контраста */
 }
